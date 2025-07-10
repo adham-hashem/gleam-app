@@ -15,7 +15,7 @@ namespace Domain.Entities
         public DateTime OrderDate { get; set; }
 
         [Required]
-        [StringLength(100)]
+        [StringLength(80)]
         public string CustomerName { get; set; } = string.Empty;
 
         [Required]
